@@ -21,7 +21,7 @@ library(ggplot2)
 view(storms)
 storms %>%
   ggplot() +
-  geom_col(mapping = aes(x = name, y = pressure))
+  geom_col(mapping = aes(x = name, y = pressure, color = "green"))
 ```
 
 You can add options to executable code like this
